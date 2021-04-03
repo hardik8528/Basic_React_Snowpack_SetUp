@@ -11,7 +11,7 @@ module.exports = {
     src:'/dist'
   },
   plugins: [
-    /* ... */
+    '@snowpack/plugin-typescript'
   ],
   packageOptions: {
     /* ... */
