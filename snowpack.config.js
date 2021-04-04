@@ -4,14 +4,14 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public:{
-      url:'/',
-      static:true
+    public: {
+      url: "/",
+      static: true,
     },
-    src:'/dist'
+    src: "/dist",
   },
   plugins: [
-    '@snowpack/plugin-typescript'
+    '@snowpack/plugin-react-refresh','@snowpack/plugin-sass'
   ],
   packageOptions: {
     /* ... */
